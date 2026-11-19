@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: portfolio-container
-        image: <YOUR_DOCKERHUB_USERNAME>/portfolio:latest
+        image: ghcr.io/vibhu91/portfolio:main
         ports:
         - containerPort: 80
         resources:
